@@ -20,8 +20,8 @@ int main(){
 
     double real2;
     real2 = 5.2e99;
-
     cout << real2 << endl;
+    
     // BOOL: Essa variavel armazena valores True = 1 ou False = 0.
 
     bool booleano;
@@ -39,6 +39,8 @@ int main(){
     string palavra;
     palavra = "bola";
     cout << palavra << endl;
+
+    // CIN: Ele vai pegar o que o usario digitou e colocar em alguma variavel.
 
     int idade;
     cout << "Qual e sua idade?" << endl;
