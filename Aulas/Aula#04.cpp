@@ -5,11 +5,12 @@ using namespace std;
 #define pi 3.14;
 #define aprendendo cout << "Estou apredendo programacao" << endl;
 
-int t;
+int t; // Essa e uma variavel global
 
 void welcome(){
-    cout << "Sejam bem vindos!!!" << endl;
 
+    cout << "Sejam bem vindos!!!" << endl;
+    
 }
 
 int somar(int x, int y){
@@ -38,7 +39,7 @@ int main(){
     cout << t;
 
     //cout << pi;
-    aprendendo;
+    //aprendendo;
 
     return 0;
 }
